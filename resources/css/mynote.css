@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "cursive";
+  background: #1a354a;
+}
+
+/* Box card */
+.box {
+  background: #fff;
+  padding: 60px 45px;
+  margin: 20px 350px;
+  border-radius: 20px;
+  animation: fadeIn 2s;
+  box-shadow: 0 7px 4px #777;
+}
+
+/* Nav head */
+nav {
+  margin-top: 10px;
+  padding: 2px;
+  list-style-type: none;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  margin: 5px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 4px 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+
+ul li a:hover {
+  background-color: #112d3d;
+  color: #fff;
+}
+
+#mynote {
+  background-color: #112d3d;
+  color: #fff;
+}
+
+i {
+  padding: 5px;
+}
+
+/* Note display */
+.note {
+  width: 700px;
+  background-color: #f5f5f5;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+}
+.note {
+  margin-top: 20px;
+}
+
+h3,
+p,
+a {
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: #112d3d;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+/*  Animation*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
